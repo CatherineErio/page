@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.head {
+  min-height: 65vh;
+  width: 100%;
+  background-image: url(images/bg-header-desktop.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 1250px;
+  height: 200px;
+}
+
+.logo {
+  margin-top: 30px;
+  margin-left: 550px;
+}
+
+.note {
+  text-align: center;
+}
+.note h1 {
+  margin-top: 15px;
+  font-weight: 600;
+}
+.note p {
+  margin: 12px;
+  color: rgb(151, 149, 149);
+  font-weight: 400;
+}
+
+.iOS {
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: hsl(171, 66%, 44%);
+  position: relative;
+  border-radius: 14px;
+  margin-left: 400px;
+}
+
+.iOS:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+  transition: 1s;
+}
+.iOS2 {
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: hsl(171, 66%, 44%);
+  position: relative;
+  border-radius: 14px;
+}
+
+.iOS2:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+  transition: 1s;
+}
+
+.devices {
+  width: 680px;
+  margin-left: 270px;
+  margin-top: 70px;
+}
+
+@media (max-width: 700px) {
+  .logo {
+    margin-top: 30px;
+    margin-left: 200px;
+  }
+
+  .note h1 {
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin-left: -370px;
+  }
+
+  .note p {
+    margin-left: -700px;
+  }
+
+  .com {
+    width: 100px;
+  }
+  .devices {
+    width: 340px;
+    margin-left: 60px;
+  }
+  .iOS {
+    display: block;
+    margin-left: 170px;
+  }
+}
+
+.Mac {
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: hsl(233, 100%, 69%);
+  position: relative;
+  border-radius: 14px;
+  margin-left: 40px;
+}
+.Mac:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+  transition: 1s;
+}
+.Mac2 {
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: hsl(233, 100%, 69%);
+  position: relative;
+  border-radius: 14px;
+  margin-left: 40px;
+}
+.Mac2:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+  transition: 1s;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.note2 {
+  text-align: center;
+}
+.note2 h1 {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.note2 p {
+  margin: 12px;
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+}
+
+.computer {
+  display: flex;
+
+  margin-top: 50px;
+  margin-left: -100px;
+}
+
+.com {
+  width: 670px;
+}
+
+.right h4 {
+  margin-top: 35px;
+  font-weight: 600;
+}
+.right p {
+  margin-top: 17px;
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+}
+
+.right {
+  margin-left: 80px;
+}
+
+@media (max-width: 700px) {
+  .com {
+    width: 300px;
+  }
+
+  .Mac {
+    display: block;
+    margin-left: 170px;
+  }
+}
+
+.sec3 {
+  text-align: center;
+}
+
+.note3 {
+  color: hsl(201, 11%, 66%);
+}
+
+.note4 {
+  text-align: center;
+}
+
+.p1 {
+  color: hsl(201, 11%, 66%);
+  margin-top: 10px;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+}
+
+.col {
+  flex-basis: 31%;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+.col:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+.col h4 {
+  text-align: center;
+}
+
+.col p {
+  color: hsl(201, 11%, 66%);
+}
+
+.col img {
+  margin-left: 163px;
+}
+
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col img {
+    margin-left: 200px;
+  }
+}
+.sec4 {
+  display: grid;
+}
+.col2 {
+  flex-basis: 31%;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+
+.col2:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.foot {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  background-color: hsl(200, 1%, 55%);
+  position: relative;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 18px 22px;
+  position: relative;
+}
+
+li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #170dce;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+li:hover::after {
+  width: 100%;
+}
